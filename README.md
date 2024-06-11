@@ -27,4 +27,4 @@ Explore the world with ease using Globe Guru, a Streamlit-powered travel itinera
 
 [![Streamlit APP](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-app-to-create-travelitinerary-uhbhy.streamlit.app/)
 
-**DISCLAIMER**: This app is created solely for educational and testing purposes. Kindly note that it is not available for general use, as accessing the OpenAI API requires purchasing tokens directly from OpenAI.
+**DISCLAIMER**: This app is created solely for educational and testing purposes,hence the API key has been removed and when the website calls the API and error message is displayed. Kindly note that it is not available for general use, as accessing the OpenAI API requires purchasing tokens directly from OpenAI.
