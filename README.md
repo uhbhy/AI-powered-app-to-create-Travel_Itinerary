@@ -20,7 +20,11 @@ Explore the world with ease using Globe Guru, a Streamlit-powered travel itinera
 - User Input: Users provide their preferences using sliders, multiselect boxes, and text inputs, which are formatted as JSON objects and stored in variables.
 - OpenAI API Interaction: The application calls the OpenAI API using chat.completions.create() endpoint and passes a prompt with placeholder tokens and the JSON objects 
   entered by users.
-- Model Processing: The API sends the request to the Language Model (LLM), which parses through the prompt and JSON objects to generate a response tailored to the user's      input.
-- Response Generation: The generated responses, which include personalized travel itineraries, are returned by the API and made available for download as a PDF format for     the user's convenience.
+- Model Processing: The API sends the request to the Language Model (LLM), which parses through the prompt and JSON objects to generate a response tailored to the user's input.
+- Response Generation: The generated responses, which include personalized travel itineraries, are returned by the API and made available for download as a PDF format for the user's convenience.
+
+**HERE'S A LINK TO THE APP**
+
+[![Streamlit APP](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-powered-app-to-create-travelitinerary-uhbhy.streamlit.app/)
 
 **DISCLAIMER**: This app is created solely for educational and testing purposes. Kindly note that it is not available for general use, as accessing the OpenAI API requires purchasing tokens directly from OpenAI.
