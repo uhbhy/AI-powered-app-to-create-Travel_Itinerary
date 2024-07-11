@@ -17,7 +17,7 @@ def get_base64_image(file):
     return base64.b64encode(data).decode()
 
 # Path to your image
-img_file = r"D:\travel_app\styling.jpg"
+img_file = "styling.jpg"
 img_base64 = get_base64_image(img_file)
 
 # Custom CSS for watermark effect
@@ -81,12 +81,12 @@ def main():
     # Create a 3x2 grid for the collage
     cols = st.columns(3)
     image_paths = [
-        r"D:\travel_app\4.jpg",
-        r"D:\travel_app\2.jpg",
-        r"D:\travel_app\3.jpg",
-        r"D:\travel_app\7.jpg",
-        r"D:\travel_app\5.jpg",
-        r"D:\travel_app\6.jpg"
+        "4.jpg",
+        "2.jpg",
+        "3.jpg",
+        "7.jpg",
+        "5.jpg",
+        "6.jpg"
     ]
     
     # Display the images in a collage format
@@ -200,10 +200,10 @@ def main():
          # Create a 3x2 grid for the collage
         cols = st.columns(2)
         image_paths = [
-            r"D:\travel_app\expert1.jpg",
-            r"D:\travel_app\expert2.jpg",
-            r"D:\travel_app\expert3.jpg",
-            r"D:\travel_app\expert_4.jpg"
+            "expert1.jpg",
+            "expert2.jpg",
+            "expert3.jpg",
+            "expert_4.jpg"
         ]
         
         # Display the images in a collage format
