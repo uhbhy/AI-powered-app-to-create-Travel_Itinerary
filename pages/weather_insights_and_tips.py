@@ -19,7 +19,7 @@ def get_base64_image(file):
     return base64.b64encode(data).decode()
 
 # Path to your image
-img_file = r"D:\travel_app\styling.jpg"
+img_file = "styling.jpg"
 img_base64 = get_base64_image(img_file)
 
 # Custom CSS for watermark effect
